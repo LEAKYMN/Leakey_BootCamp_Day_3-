@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
 from unittest import TestCase
 from word_count import words
 
+#from word import words
+#import unittest
 
-class TestWordCounts(TestCase):
+class TestWordCounts(unittest.TestCase):
 
     """
         Counts the occurrences or characters in a word
